@@ -4,31 +4,3 @@
   grid-template-columns: 2fr 10fr;
   grid-template-areas: 'h h' 'n c';
 }
-
-.header {
-  grid-area: h;
-  background-color: blue;
-}
-
-.header img {
-  width: 50px;
-}
-
-.nav {
-  grid-area: n;
-  background-color: red;
-}
-
-.content {
-  grid-area: c;
-  background-color: sandybrown;
-}
-
-.content__img {
-  height: 500px;
-  overflow: hidden;
-}
-
-.content__img img {
-  width: 100%;
-}

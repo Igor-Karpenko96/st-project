@@ -1,23 +1,25 @@
-import React from 'react'
+import React from 'react';
+import classes from './Profile.module.css';
+
 
 function Profile() {
     return (
-        <div className="content">
-        <div className="content__img">
-          <img
-            src="https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg"
-            alt=""
-          />
-        </div>
-        <div>avatar + description</div>
-        <div>
-          my posts
-          <div>new post</div>
-          <div>
-            <div>post 1</div>
-            <div>post 2</div>
-          </div>
-        </div>
+        <div className={classes.content}>
+            <div className={classes.content__img}>
+                <img
+                    src="https://tech.informator.ua/wp-content/uploads/2018/10/luchie_knigi_kiberpank.jpg"
+                    alt=""
+                />
+            </div>
+            <div>avatar + description</div>
+            <div>
+                my posts
+                <div>new post</div>
+                <div className={classes.posts}>
+                    <div className={classes.item}>post 1</div>
+                    <div className={classes.item}>post 2</div>
+                </div>
+            </div>
       </div>
     )
 }
