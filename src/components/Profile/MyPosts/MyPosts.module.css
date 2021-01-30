@@ -1,6 +1,6 @@
-.item {
-  color: green;
+.posts_block {
+  padding: 10px;
 }
-.item img {
-  width: 100px;
+.posts {
+  margin-top: 10px;
 }

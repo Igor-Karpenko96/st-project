@@ -1,19 +1,15 @@
 import React from 'react';
-import classes from './Profile.module.css';
 import MyPosts from './MyPosts/MyPosts'
+import ProfileInfo from './MyPosts/ProfileInfo/ProfileInfo'
 
 
-function Profile() {
+
+
+function Profile(props) {
     return (
-        <div className={classes.content}>
-            <div className={classes.content__img}>
-                <img
-                    src="https://tech.informator.ua/wp-content/uploads/2018/10/luchie_knigi_kiberpank.jpg"
-                    alt=""
-                />
-            </div>
-            <div>avatar + description</div>
-            <MyPosts/>
+        <div>
+            <ProfileInfo src="https://tech.informator.ua/wp-content/uploads/2018/10/luchie_knigi_kiberpank.jpg"/>
+            <MyPosts postsData={props.postsData}/>
       </div>
     )
 }

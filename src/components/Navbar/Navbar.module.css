@@ -3,7 +3,11 @@
   background-color: red;
 }
 
-.item {
+.item a {
   color: white;
-  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.item a.activeLink {
+  color: gold;
 }
