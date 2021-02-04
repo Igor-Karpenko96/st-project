@@ -4,12 +4,16 @@ import ProfileInfo from './MyPosts/ProfileInfo/ProfileInfo'
 
 
 
-
 function Profile(props) {
+    
     return (
         <div>
             <ProfileInfo src="https://tech.informator.ua/wp-content/uploads/2018/10/luchie_knigi_kiberpank.jpg"/>
-            <MyPosts postsData={props.postsData}/>
+            <MyPosts 
+                newPostText={props.profilePage.newPostText} 
+                dispatch={props.dispatch} 
+                postsData={props.profilePage.postsData}
+            />
       </div>
     )
 }

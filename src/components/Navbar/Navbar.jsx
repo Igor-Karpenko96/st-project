@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import classes from './Navbar.module.css';
 
-function Nav() {
+function Nav(props) {
     return (
     
     <nav className={classes.nav}>
@@ -23,6 +23,7 @@ function Nav() {
         <div className={classes.item}>
             <NavLink to="/settings" activeClassName={classes.activeLink}>settings</NavLink>
         </div>
+       
     </nav>
         
     )
