@@ -23,6 +23,9 @@ function Nav(props) {
         <div className={classes.item}>
             <NavLink to="/settings" activeClassName={classes.activeLink}>settings</NavLink>
         </div>
+        <div className={classes.item}>
+            <NavLink to="/users" activeClassName={classes.activeLink}>users</NavLink>
+        </div>
        
     </nav>
         
