@@ -1,4 +1,6 @@
 .header {
+  height: 100%;
+  width: auto;
   grid-area: h;
   background-color: white;
   box-shadow: 0px 6px 20px 0px lightgrey, inset 0px 26px 29px -10px lightgrey;
@@ -7,4 +9,9 @@
 
 .header img {
   width: 50px;
+}
+
+.loginBlock {
+  float: right;
+  color: black;
 }

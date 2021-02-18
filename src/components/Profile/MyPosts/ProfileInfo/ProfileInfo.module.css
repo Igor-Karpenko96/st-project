@@ -1,6 +1,8 @@
 .content__img {
   height: 500px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .content__img img {
